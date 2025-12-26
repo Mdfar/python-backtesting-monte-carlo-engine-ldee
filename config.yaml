@@ -1,0 +1,7 @@
+Strategy Configuration
+
+backtest_settings: initial_capital: 10000 commission_pct: 0.001 # 0.1% per trade slippage_bps: 5 # 5 basis points risk_free_rate: 0.02
+
+filters: session_only: true # Only trade during specific hours min_volatility: 1.5 # ATR multiplier liquidity_filter: ON
+
+simulations: monte_carlo_iterations: 1000 confidence_interval: 95
